@@ -18,10 +18,10 @@
 $(call inherit-product, device/samsung/on7xelte/full_on7xelte.mk)
 
 # Inherit common CM phone.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := cm_on7xeltedd
+PRODUCT_NAME := lineage_on7xelte
 PRODUCT_DEVICE := on7xelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
